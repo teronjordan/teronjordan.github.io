@@ -4,10 +4,11 @@
     font-size: 25px;
     padding: 10px;
     font-weight: 800;
-
+    width:100%;
 }
 
 #main {
+    font-family: 'Work Sans', sans-serif;
 padding:10px;
 text-align: center;
 width: 100%
@@ -22,5 +23,6 @@ color: blue;
 
 }
 body{
-    background-color: lightgoldenrodyellow;
+    background-color: lightgray;
+
 }
