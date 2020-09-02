@@ -1,11 +1,14 @@
 body{
-    background-color: #ff9ccf;
+    background-color: #f6235b;
+    font-family: 'Roboto', sans-serif;
 }
 #header{
-    position: absolute;
-    align-self: center;
+    position: fixed;
+    top: 1px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: white;
-    font-size: 25px;
+    font-size: 45px;
+    padding: 2px;
+    font-weight: 900;
 }
