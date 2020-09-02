@@ -1,3 +1,7 @@
-body{
-    
+
+#header{
+    position: absolute;
+    align-self: center;
+    width: 100%;
+    text-align: center;
 }
