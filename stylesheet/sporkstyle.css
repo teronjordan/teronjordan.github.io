@@ -1,4 +1,6 @@
-
+body{
+    background-color: #ff9ccf;
+}
 #header{
     position: absolute;
     align-self: center;
