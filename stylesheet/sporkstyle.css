@@ -3,27 +3,30 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #header{
+    position: absolute;
     color: white;
     font-weight: 800;
     font-size: 40px;
     top: 0px;
-    padding: 0px;
     user-select: none;
     height: 40px;
     text-align: left;
-    border: 0px;
+    z-index: 1;
+    font-family: 'Orbitron', sans-serif;
 }
 #header a{
-    top: 0px;
+    
     color: white;
     font-weight: 800;
     font-size: 40px;
     text-decoration: none;
+    pointer-events: none;
 
 }
 /* Dropdown Button */
 .dropdiv {
     position: absolute;
+    user-select: none;
     right: 5px;
     border: 0px;
     padding: 0px;
@@ -47,6 +50,8 @@ body{
   
   /* Dropdown Content (Hidden by Default) */
   .dropctn {
+      
+      text-align: center;
     display: none;
     position: relative;
     right: 5px;
@@ -60,6 +65,7 @@ body{
   
   /* Links inside the dropdown */
   .dropctn a {
+    font-family: 'Roboto', sans-serif;
     color: black;
     padding: 12px 12px;
     text-decoration: none;
@@ -72,8 +78,9 @@ body{
   
   .dropdown:hover .dropdiv {background-color: #d22c58;}
   #subtext{
-      font-size: 10px;
+      font-size: 8px;
       padding: 0px;
       position: absolute;
-      top: 45px;
+      top: 34px;
+      right: 20px;
   }
