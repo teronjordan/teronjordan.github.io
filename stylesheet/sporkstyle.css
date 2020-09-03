@@ -12,6 +12,13 @@ body{
     height: 40px;
     text-align: left;
 }
+#header a{
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    text-decoration: none;
+
+}
 /* Dropdown Button */
 .dropbtn {
     position: absolute;
