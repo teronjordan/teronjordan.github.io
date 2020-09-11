@@ -1,28 +1,39 @@
 #top{
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 25px;
     padding: 10px;
     font-weight: 800;
     width:100%;
+    color: black;
+    position: relative;
+
 }
 
 #main {
     font-family: 'Roboto', sans-serif;
 padding:10px;
 text-align: center;
-width: 100%
-
-
-
-
+width: 100%;
+position: absolute; 
+top: 55px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 #breaker{
-    width:75%;
+    width:100%;
     align-self: center;
-
+    position: relative;
+    top: 50px;
 }
 body{
-    background-color: #00d4ff;
+    background-color: white;
+    color: black;
+
+}
+#topmain{
+position: fixed;
 
 }
