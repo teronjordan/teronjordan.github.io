@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #header{
-    position: absolute;
+    position: fixed;
     color: white;
     font-weight: 800;
     font-size: 40px;
@@ -22,6 +22,14 @@ body{
     text-decoration: none;
 
 
+}
+#spork{
+  color: white;
+  position: absolute;
+  width: 60%;
+  right: 20%;
+  left: 20%;
+  top: 50px;
 }
 /* Dropdown Button */
 .dropdiv {
@@ -52,7 +60,7 @@ body{
   /* Dropdown Content (Hidden by Default) */
   .dropctn {
       
-      text-align: center;
+    text-align: center;
     display: none;
     position: relative;
     right: 5px;
