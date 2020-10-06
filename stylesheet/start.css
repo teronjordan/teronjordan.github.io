@@ -10,6 +10,7 @@
 
 }
 
+
 #main {
     font-family: 'Roboto', sans-serif;
 padding:10px;
@@ -27,8 +28,9 @@ a{
 #breaker{
     width:100%;
     align-self: center;
-    position: relative;
+    position: fixed;
     top: 40px;
+    
 }
 body{
     background-color: white;
