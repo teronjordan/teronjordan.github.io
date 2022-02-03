@@ -27,7 +27,7 @@ a{
 #breaker{
     width:100%;
     align-self: center;
-    position: relative;
+    position: absolute;
     top: 40px;
 }
 body{
@@ -38,6 +38,6 @@ body{
 #topmain{
 position: fixed;
 top: 0%;
-right
+
 
 }
