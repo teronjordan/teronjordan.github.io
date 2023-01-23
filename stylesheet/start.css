@@ -1,7 +1,7 @@
 #top{
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 28px;
     padding: 10px;
     font-weight: 800;
     width:100%;
@@ -12,6 +12,17 @@
 
 
 #main {
+    font-family: 'Roboto', sans-serif;
+padding:10px;
+right: 20%;
+left: 20%;
+text-align: center;
+width: 60%;
+position: absolute; 
+top: 55px;
+}
+
+#notemain {
     font-family: 'Roboto', sans-serif;
 padding:10px;
 right: 20%;
