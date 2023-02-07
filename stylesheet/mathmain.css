@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 }
 #header{
@@ -30,61 +30,9 @@ body{
   left: 20%;
   top: 50px;
 }
-/* Dropdown Button */
-.dropdiv {
-    position: absolute;
-    pointer-events: fill;
-    user-select: none;
-    right: 5px;
-    border: 0px;
-    padding: 0px;
-    background-color: black;
-    width: 40px;
-    height: 45px;
-    background-image: repeating-linear-gradient(180deg,
-      transparent,
-      transparent 5px,
-      white 5px,
-      white 10px);
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
 
-    position: fixed; right: 0px;
-    top: 0px;
-    display: inline-block;
-  }
   
-  /* Dropdown Content (Hidden by Default) */
-  .dropctn {
-      
-    text-align: center;
-    display: none;
-    position: relative;
-    right: 5px;
-    top: 45px;
-    background-color: #f1f1f1;
-    min-width: 105px;
-    z-index: 1;
-    border-radius: 010px;
-    
-  }
-  
-  /* Links inside the dropdown */
-  .dropctn a {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    padding: 12px 12px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropctn a:hover {background-color: #ddd; border-radius: 010px;}
-  
-  .dropdown:hover .dropctn {display: block;}
-  
-  .dropdown:hover .dropdiv {background-color: #322b2d}
+
   #subtext{
       font-size: 8px;
       padding: 0px;

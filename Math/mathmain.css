@@ -1,0 +1,71 @@
+body{
+  background-color: lightgray;
+  font-family: 'Roboto', sans-serif;
+}
+#header{
+  position: fixed;
+  color: green;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 2px dotted black;
+  background-color: white;
+  font-weight: 800;
+  font-size: 20px;
+  top: 0px;
+  left:10%;
+  width:80%;
+  height: 100px;
+ 
+  z-index: 1;
+  font-family: 'Orbitron', sans-serif;
+}
+#header a{
+  position:absolute;
+  color: black;
+  font-weight: 800;
+  font-size: 25px;
+  text-decoration: none;
+  top:30px;
+  left: 30px;
+
+
+}
+#reading-body{
+  position: absolute;
+  border-radius: 5px;
+  width:80%;
+  left:10%;
+  height:100%;
+  background-color: white;
+}
+#spork{
+color:  black;
+position: absolute;
+width: 60%;
+right: 20%;
+left: 20%;
+top: 50px;
+}
+
+
+
+#subtext{
+    font-size: 8px;
+    padding: 0px;
+    position: absolute;
+    top: 34px;
+    right: 20px;
+}
+
+#aboutmain{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    right: 25%;
+    top: 100px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
